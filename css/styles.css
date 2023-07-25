@@ -13,9 +13,10 @@ header {
 
 .teaMenu {
     background-color:rgb(184, 134, 11, 0.45);
-    text-align:left;
+    text-align:center;
     width:80%;
     margin:auto;
+    padding:20px;
 }
 
 .teaFlavor {
@@ -29,4 +30,17 @@ header {
     text-align:right;
     width:49%;
     background-color: darkorange;
+}
+.teaFlavor, .teaCollection {
+    display:inline-block;
+    background-color:orangered;
+    text-align:left;
+    width:75%;
+}
+
+.teaPrice, .collectionPrice {
+    display:inline-block;
+    background-color:yellow;
+    text-align:right;
+    width:25%;
 }
